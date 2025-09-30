@@ -43,7 +43,7 @@ tambahan interface:
   <img width="1459" height="861" alt="image" src="https://github.com/user-attachments/assets/5e6af5ef-4e19-40e4-88f4-c3e36caec11b" />
   <img width="1647" height="1087" alt="image" src="https://github.com/user-attachments/assets/c53f6649-9ede-4a35-bbdc-2cd397f9aa9e" />
 
-## Dokumentasi Program pt4
+## Dokumentasi Program PT4
 - Abstraction: Class Resep dijadikan abstract sehingga tidak bisa dibuat objek secara langsung. Class ini berisi atribut dan method umum semua resep (nama, bahan utama, lama memasak, kategori).
   <img width="2657" height="951" alt="image" src="https://github.com/user-attachments/assets/ccd1c37b-585a-4ce6-a163-d560f8ca04cc" />
 
@@ -59,12 +59,33 @@ tambahan interface:
     <img width="2407" height="1104" alt="image" src="https://github.com/user-attachments/assets/38adcb7c-3a32-4308-a14e-db1ca926eaad" />
     <img width="2357" height="1147" alt="image" src="https://github.com/user-attachments/assets/aed8f3c4-2b94-4a56-89f9-7b05add789df" />
 
-- Output:
+  - Ada juga perubahan kode di class main ResepMasakan
+    - pilihan 1 tambah resep. Sekarang pengguna bisa menambahkan bahan pelengkap jika mau. Constructor ResepMakanan dan ResepMinuman kemungkinan sudah di-overload untuk menerima 3 atau 4 parameter (dengan atau tanpa pelengkap).
+      <img width="1762" height="1294" alt="image" src="https://github.com/user-attachments/assets/34378153-2325-47b1-ac37-19f321bc3e96" />
+      
+    - pilihan 3 ubah resep. Sebelumnya, mengubah resep hanya mengganti nama, bahan, lama, tapi sekarang saat mengubah resep, pengguna juga bisa menambahkan atau mengganti bahan pelengkap.
+      <img width="1938" height="1409" alt="image" src="https://github.com/user-attachments/assets/4081aedd-40f4-4c10-818f-bddc63e967cd" />
+
+    - dan penambahan pilihan 6 proses memasak. Menambahkan fungsi “memasak” resep. prosesMemasak() kemungkinan method di kelas Resep atau subclass yang menampilkan langkah-langkah memasak. Sekarang pengguna bisa memilih resep dan “mengeksekusi” proses memasak melalui program.
+      <img width="2318" height="817" alt="image" src="https://github.com/user-attachments/assets/e532e949-2f6b-4a1f-b22f-4e775c6b801a" />
+
+
+- Output PT 3:
   <img width="1588" height="664" alt="image" src="https://github.com/user-attachments/assets/225cadad-fab7-426f-a300-44267f52ba71" />
   <img width="1586" height="778" alt="image" src="https://github.com/user-attachments/assets/48682557-36b8-4eb8-ba7c-0877491149ed" />
   <img width="1620" height="901" alt="image" src="https://github.com/user-attachments/assets/f4e66653-9175-4cb4-b736-01cd6938c941" />
+  <img width="1924" height="343" alt="image" src="https://github.com/user-attachments/assets/3cf4327a-c59e-4818-98b7-388aea8ac6b8" />
 
-<img width="1924" height="343" alt="image" src="https://github.com/user-attachments/assets/3cf4327a-c59e-4818-98b7-388aea8ac6b8" />
+- Output PT4:
+  <img width="1618" height="550" alt="image" src="https://github.com/user-attachments/assets/5837750b-6782-4e73-a558-b72d4e135d4b" />
+  <img width="1842" height="1186" alt="image" src="https://github.com/user-attachments/assets/620ed77f-e78b-4419-b6fd-777f3fcd6f31" />
+  <img width="1670" height="620" alt="image" src="https://github.com/user-attachments/assets/2ba4f556-ef30-4695-81af-bdf76b98a9af" />
+  <img width="1633" height="610" alt="image" src="https://github.com/user-attachments/assets/5d8c54e8-2398-4d1d-9929-1c02d30e9744" />
+  
+
+
+
+
 
 
 
